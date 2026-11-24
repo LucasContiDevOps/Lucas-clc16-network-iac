@@ -4,6 +4,8 @@ resource "aws_vpc" "clc_vpc" {
 
   tags = {
     Name = "terraform_vpc_automation"
+    Project = "terraform_automation"
+    Owner = "clc"
   }
 }
 
