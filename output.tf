@@ -1,3 +1,9 @@
+output "vpc_name" {
+  description = "Nome da VPC"
+  value       = aws_vpc.clc_vpc.tags["Name"]
+  sensitive = true
+}
+
 output "vpc_id" {
   description = "ID da VPC"
   value       = aws_vpc.clc_vpc.id
