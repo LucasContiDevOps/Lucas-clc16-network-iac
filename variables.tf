@@ -1,6 +1,6 @@
 variable "env" {
     type = string
-    default = "homol"
+    default = "prd"
 }
 
 variable "vpc_name" {
